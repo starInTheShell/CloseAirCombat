@@ -17,7 +17,7 @@ $$
 $$
 \begin{cases}
 \dot{v}(t)=g (n_{x}(t)-\sin{\theta(t)}) \\
-\dot{\varphi}(t)=\frac{g}{v(t)}n_{y}(t)\cos{\theta(t)} \\
+\dot{\varphi}(t)=\frac{g}{v(t)\cos{\theta(t)}}n_{y}(t) \\
 \dot{\theta}(t)=\frac{g}{v(t)}(n_{z}(t)-\cos{\theta(t)})
 \end{cases}
 $$
